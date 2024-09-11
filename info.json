@@ -1,0 +1,11 @@
+{
+    // Nombre del proyecto
+    "nombre": "Mi Proyecto Web",
+    // Descripción del proyecto
+    "descripcion": "Un sitio web que utiliza SASS, técnicas SEO y está optimizado para dispositivos móviles y desktop.",
+    // Tecnologías utilizadas
+    "tecnologias": ["HTML", "SASS", "Git", "SEO"],
+    // Fecha de entrega
+    "fecha": "2024-09-11"
+  }
+  

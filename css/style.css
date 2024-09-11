@@ -1,0 +1,33 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-color: #3498db;
+  color: white; }
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1rem; }
+    header nav ul li a {
+      color: white;
+      text-decoration: none; }
+      header nav ul li a:hover {
+        color: #2ecc71; }
+
+section {
+  padding: 2rem;
+  text-align: center; }
+  section h1, section h2 {
+    font-size: 1.5rem; }
+
+footer {
+  background-color: #217dbb;
+  color: white;
+  text-align: center;
+  padding: 1rem; }
+
+/*# sourceMappingURL=style.css.map */

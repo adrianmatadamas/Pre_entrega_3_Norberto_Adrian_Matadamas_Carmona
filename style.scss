@@ -1,0 +1,59 @@
+// Variables
+$primary-color: #3498db;
+$secondary-color: #2ecc71;
+$font-stack: 'Arial', sans-serif;
+
+// Mixin para fuentes grandes
+@mixin large-font {
+  font-size: 1.5rem;
+}
+
+// Estilos generales
+body {
+  font-family: $font-stack;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+// Encabezado
+header {
+  background-color: $primary-color;
+  color: white;
+
+  nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1rem;
+
+    li {
+      a {
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+          color: $secondary-color;
+        }
+      }
+    }
+  }
+}
+
+// Secciones
+section {
+  padding: 2rem;
+  text-align: center;
+
+  h1, h2 {
+    @include large-font;
+  }
+}
+
+// Footer
+footer {
+  background-color: darken($primary-color, 10%);
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
